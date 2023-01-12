@@ -18,7 +18,7 @@ jobs:
       
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4.4.1
-        width: 
+        with: 
           branch: gh-pages
           folder: dist/app-ng-basic
 
