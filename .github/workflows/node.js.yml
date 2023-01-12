@@ -18,7 +18,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Install and Build
-        run: npm install && ng build --output-path docs --base-href /app-ng-basic/ && cp docs/app-ng-basic/index.html docs/app-ng-basic/404.html
+        run: npm install && npm run build && cp dist/app-ng-basic/index.html dist/app-ng-basic/404.html
       
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4.4.1
