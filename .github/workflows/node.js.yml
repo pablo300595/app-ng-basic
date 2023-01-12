@@ -14,5 +14,5 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Install and Build
-        run: npm install
+        run: npm install && npm run build && cp dist/app-ng-basic/index.html cp dist/app-ng-basic/404.html
 
