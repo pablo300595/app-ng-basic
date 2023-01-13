@@ -36,6 +36,8 @@ jobs:
         with:
           target_branch: gh-pages
           build_dir: dist/app-ng-basic
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
 
 
