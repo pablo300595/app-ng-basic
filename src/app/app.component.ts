@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app-ng-basic';
-  arr = ['banana', 'apple', 'pineapple']
+  arr = ['banana', 'apple', 'pineapple', 'Hulk']
 }
