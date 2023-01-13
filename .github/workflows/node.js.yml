@@ -25,6 +25,6 @@ jobs:
         with: 
           branch: gh-pages
           folder: .
-          target-folder: docs
+
 
 
